@@ -6,15 +6,9 @@ library(ggsci)
 library(magrittr)
 library(vars)
 install.packages("car", dependencies = TRUE)
-# 偏グレンジャー因果用のスクリプト読み込み
-#source('https://raw.githubusercontent.com/cran/FIAR/master/R/partGranger.R')
-# install.packages("dplyr", dependencies = TRUE)
 library(dplyr)
-# 全ての古いパッケージをアップデートする
-# update.packages()
-#packageVersion("dplyr")
 
-df <- read.csv("C:\\Users\\SHO\\PycharmProjects\\Sony_Stock_price.csv")
+df <- read.csv("Sony_Stock_price.csvのパス")
 
 #属性確認
 str(df)
